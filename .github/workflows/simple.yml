@@ -11,5 +11,3 @@ jobs:
     steps:
       - name: Print a message
         run: echo "Hello from GitHub Actions!"
-
-Added another line to see if it works.
