@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Hello from GitHub Actions on Windows!"
+        run: echo "Hello from GitHub Actions on Windows!!"
