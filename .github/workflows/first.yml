@@ -1,13 +1,18 @@
-name: First Windows Workflow
+name: Run PowerShell Script
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
-  hello:
+  run-script:
     runs-on: windows-latest
 
     steps:
-      - name: Say hello
-        run: echo "Hello from GitHub Actions on Windows!! I have definitely done something!"
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run PowerShell script
+        run: ./test.ps1
+        shell: pwsh
+
