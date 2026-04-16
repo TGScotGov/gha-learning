@@ -1,0 +1,5 @@
+what variables exist (variables.tf)
+
+what their values are (terraform.tfvars)
+
+where to use them (main.tf)
