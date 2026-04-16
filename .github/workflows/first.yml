@@ -2,7 +2,7 @@ name: First Windows Workflow
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   hello:
